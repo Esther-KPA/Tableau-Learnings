@@ -33,3 +33,16 @@ measures section / press control and drag it to measures section
 
 3. Rename the calculations as desired 
 4. Also remove unwanted data sets to add data sets with new calculations.
+
+CREATING VISUALIZATIONS
+ - STEPS;
+ 1. To have two data sets charts, add data sets to "row" section.
+ 
+ Dataset with location:
+ 1. Drag longitude that is generated to columns and generated latitudes to rows
+ 2. You can play around with the marks section to have colour, the design of visualization in map eg automatic, density, etc
+ 
+ *** In visualization you can always add some  order at the end by "showing" the data starting with highest to lowest or lowest
+ to highest.
+ 
+ *** When adding data in "marks" a new one is constantle added to add a mark like "label" or colour", etc
