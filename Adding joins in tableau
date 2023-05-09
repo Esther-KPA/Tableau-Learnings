@@ -1,0 +1,15 @@
+*** Steps:
+
+1. Drag required dataset >> drop down menu >> open >> join with desired dataset
+
+*** 
+- Inner join = matching info
+- Left join = data in the left table but not matching right
+- right join = data in the right table but not matching left
+- full outer join = data in both tables despite if matching or not
+
+*** Often employee / data ID is used to join but if you have other data "names" that are used to distinguish each row
+then it is used eg "name of employee"
+
+You can always add different data sets and join them accordingly.
+
