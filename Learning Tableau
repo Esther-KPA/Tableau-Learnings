@@ -1,0 +1,35 @@
+*** Some first beginner steps with Tableau;
+
+*** Following  some steps below;
+1. Download the dataset from kaggle/ any
+2. Rename it to have it stored on your computer
+3. If its in csv then upload it from the text file section
+4. Click on sheet 1 to go to a space where you can create charts and dashboards
+5. You can always drag dimensions / measures : Dimensions = Data immediately below "tables" , Measures = Data below dimensions section
+6. Drag data accordingly, that going to columns and that going to rows. eg Year best if its a column and sum a row
+7. Add a distinctive data set eg genre in the dataset that is different game genres, to "marks" section, on side of genre > click on colour
+to give different line graphs colour
+8. Add another dataset like sum-global cells to give the line graphs labels.
+9. You can filter out datasets accordingly eg dataset - platform that has different gaming systems. Add it to the "filters" section
+>> click on show all filters to choose which graphs to show
+10. You can create a second worksheet to show distinct dataset not shown in first sheet >> Go to add worksheet at the bottom
+11. Add dashboard and choose two charts you want to show
+
+*** Calculated fields and bins ;
+BINS : Ranges of numerical value, cant use data in form of text, only number eg year, etc
+*** Steps ;
+
+1. Go to numerical data you want to have in ranges
+2. Right click >> Create >> Bins >> choose size 3 = numerical data in ranges of 3, 5 = range of 5, etc
+3. You can hide or remove nulls though not recommended for work
+
+CALCULATED FIELDS : Creating or using calculations to compare data in chart
+
+1. You can use already existing calcuations - go to dataset. drop down menu >> Quick calculations >> choose calculation >> Drag it to 
+measures section / press control and drag it to measures section
+
+2. To create your own calculated field >> Go to data set, right click >> create calculated field option >> Insert desried calculation
+>> click ok 
+
+3. Rename the calculations as desired 
+4. Also remove unwanted data sets to add data sets with new calculations.
