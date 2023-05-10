@@ -1,0 +1,43 @@
+*** Prior to start
+Project Use-case : Where is the best place to buy a home and put it up on Airbnb? what factors to look for?
+Thnings the person cares for: Number of rooms, location, price he can set
+Help him find a really good place to pl;ace his airbnb business/investment
+
+- Have a look at your data, what would you use and what's junk
+- Double check ID's to see which ID matches the name, etc
+
+Steps:
+
+- Load the data onto tableau
+- Dragged listing sheet to create a join >> Open
+- Dragged calendar sheet to join it "iNNER Join" >> Used appropriate ID i.e Listing ID and Id
+- Dragged reviews sheet to turn into a join "Inner join" >> used appropriate ID i.e listing reviews ID and ID
+
+*!! Tableau can automatically make joins, be sure to double check if they are the correct ID's.
+    Sometimes you can join multiple ID's
+
+- Couldn't load more than millions of data in tableau public so >> removed reviews join
+**1.  Starting with Price per zipcode :
+Exclude nulls
+Zipcode - columns, price (avg) - rows :changed from sum to average. >> Arraqnge from high to low >> add colour >> rename
+**2. Creating map - respective of zipcode:
+-dRAG ZIPCODE TO COLUMNS >> choose appropriate map >> add zipcode to "marks" edit the colour
+**!! At first nothing showed up, I scrolled to the bottom and changed the unknown location to USA
+** Add labels accordingly >> add price to "marks" >> makr it AVG to match bar graph
+**! The area with high avg = Nice are that charges well and could be a good opportunity
+** Remove nulls
+**3. Want to know the best times to put it on the market for people to use (Person wants to buy but also live in it)
+When are people spending the most money in Airbnb?
+** Drag date from calendar data to columns and calendar - price to rows
+** Split the year in quarter/month/week : We used weeks in example
+**! there's a sharp drop in the end bc the data stops in nov 2016 >> You can remove it by using the "filter" in the drop down menu of week
+*== The best time to put it on the market is summer / vacation and end of year holidays
+**4. Factors affecting the price e.g The larger the house/ more number of rooms = the higher the price but we have to test hypothesis
+** Convert bedroom "measure" into "dimension" OR you can drag it as is from measures section to columns >> drop down menu >> convert to value
+** First visualization = number of bedrooms that has highest worth of listings i.e = brings in the most revenue is "One bedroom"
+** Using avg price in rows and bedrooms in column = proves the higher the number of bedrooms the higher the return on investment
+**5. What's his competition like? depending on bedrooms (No.)
+** Distinctively shows the count (no.) of listings in the area >> Showing that "1 bedroom" LISTINGs are the most common
+thus to have less competition >> invest in 4,5,6 bedroom apartments
+*! Is there alot of demand for these? >> You could look at reviews, etc
+**6. Add dashboard >> drag charts in space and >> place them as desired.
